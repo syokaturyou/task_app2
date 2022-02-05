@@ -8,8 +8,13 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
-  <body>
-    <%= yield %>
+<body>
+   <header>
+    <h1>potepan share</h1>
+   </header>
+     <%= yield %> 
+   <footer>
+     <h1>© 2020 POTEPAN.INC.</h1>
+   </footer>
   </body>
 </html>

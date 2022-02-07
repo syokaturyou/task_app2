@@ -9,12 +9,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 <body>
-   <header>
-    <h1>potepan share</h1>
-   </header>
+   <%= render 'layouts/header' %>
      <%= yield %> 
-   <footer>
-     <h1>© 2020 POTEPAN.INC.</h1>
-   </footer>
+   <%= render 'layouts/footer' %>
   </body>
 </html>

@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+
+ header {
+   min-width: 1000px;
+   min-height: 90px;
+   background-color: black;
+   color: white;
+ }
+ 
+  footer {
+   min-width: 1000px;
+   min-height: 180px;
+   background-color: black;
+   color: white;
+   text-align: center;
+ }
+ 
+ p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

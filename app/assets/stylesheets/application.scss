@@ -13,7 +13,8 @@
  *= require_tree .
  *= require_self
  */
-
+ 
+ @import "bootstrap";
 
  header {
    min-width: 1000px;
@@ -29,8 +30,58 @@
    color: white;
    text-align: center;
  }
- 
- p {
-    margin-top: 0;
-    margin-bottom: 1rem;
+
+ .main {
+ min-height: 600px;
+ height: 900px;
+ background-image: image-url("img_cover_top.png");
+ background-repeat:  no-repeat;
+ background-color: white;
 }
+
+.nyu {
+ width: 150px;
+}
+.nyu2 {
+ width: 280px;
+}
+
+.top{
+ min-height: 550px;
+ width: 800px;
+ padding: 10px;
+ 
+  .form-area{
+   min-height: 250px;
+   width: 450px;
+   border-radius: 10px;
+   background-color: white;
+     p {
+       font-size: 180%;
+       margin-top: 0;
+       margin-bottom: 1rem;
+    }
+   }
+}
+
+.under {
+ left: 30%;
+ display: flex;
+ top: 80%;
+ min-height: 350px;
+ background-color: white;
+ 
+ .h1{
+ min-width: 700px;
+ min-height: 100px;
+}
+ 
+ img {
+    vertical-align: middle;
+    border-style: none;
+    width: 200px;
+    height: 300px;
+}
+ 
+}
+

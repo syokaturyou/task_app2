@@ -1,3 +1,16 @@
 <header>
-<h1>potepan share</h1>
+
+ <%= link_to image_tag("logo.png"), root_path %>
+
+<input type="text" name="area" id="area" value="" class="nyu" placeholder="エリア">
+<input type="text" name="keyword" id="keyword" value="" class="nyu" placeholder="キーワード">
+
+
+<% if 1 == 1 %>
+ <%= link_to 'ログイン', root_path, class: 'btn btn-primary' %>
+ <%= link_to '登録する', root_path, class: 'btn btn-secondary' %>
+<% else %>
+
+<% end %>
+
 </header>
